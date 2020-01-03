@@ -46,6 +46,8 @@ class Song
     song_name = sections[1].gsub(".mp3", "")
     artist_name = sections[0]
     song = self.new
+    song.name = song_name
+    
   end
 
 end
